@@ -1,0 +1,13 @@
+name: validate
+on:
+  push:
+  pull_request:
+jobs:
+  shell-check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check shell syntax
+        run: bash -n scripts/setup-cloud.sh scripts/doctor.sh
+      - name: Check scripts are executable
+        run: test -x scripts/setup-cloud.sh && test -x scripts/doctor.sh

@@ -1,0 +1,16 @@
+.env
+.env.*
+!.env.example
+*.log
+*.bin
+*.exe
+*.dll
+*.so
+*.dylib
+*.zip
+*.7z
+*.tar*
+*.ghidra
+*.rep/
+analysis/
+reports/

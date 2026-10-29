@@ -88,3 +88,5 @@ Este repositório de setup usa MIT. REA, Ghidra, Java e quaisquer MCPs adicionai
 - [Código e limites atuais do REA](https://github.com/imft-debug/reverse-engineer-anything-REA)
 - [Releases do Ghidra e SHA-256](https://github.com/NationalSecurityAgency/ghidra/releases)
 - [Pacote REA no npm](https://www.npmjs.com/package/rea-agents)
+
+<!-- Teste do GitHub Sidebar: alteração temporária para validar o pull request. -->
